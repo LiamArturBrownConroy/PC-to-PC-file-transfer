@@ -1,7 +1,13 @@
-Instructions for pc to pc connection (without internet)
-
---
---
---
---
---
+Instructions for Windows 11 PC to PC connection (without internet)
+-- Ensure there is no WIFI or Ethernet connection available
+--connect both PC devices to each other via Ethernet. (crossover cable if necessary).
+--go to pc Settings > Ethernet > IP Assignment (click edit) > Configure manual IPv4 address (only ip address + subnet) and Save.
+-- IP address example: 192.168.x.1, Subnet Address Example: 255.255.255.0
+-- Go to File Explorer > Network > Turn on Network Discovery.
+-- Follow all the above steps for the secondary PC. Ensure secondary PC uses a different IP address
+-- On secondary computer, click File Explorer > Network > {first PC}
+-- click the first PC and enter credentials
+-- Select Users
+-- Select File location. (Desktop usually)
+-- Drag and Drop to new PC Desktop 
+-- Disconnect Devices.
